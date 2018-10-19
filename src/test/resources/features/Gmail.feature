@@ -10,6 +10,5 @@ And ingresa las credenciales de AccentureTesting2018@gmail.com con 123456Accentu
 
 @tag1
 Scenario: PRUEBA A REALIZAR - Enviar Correo Electrónico desde la página de Gmail.
-Given que Accenture Testing observa la pagina de inicio de gmail, procede a redactar un nuevo correo electronico
-When Accenture Testing quiere enviar un correo electronico a danielcorrea1058@gmail.com para comentarle acerca de su nuevo descumbriento en la Automatizacion de pruebas y argumentarle que Este mensaje es generado automaticamente
+When Accenture Testing quiere enviar un nuevo correo electronico a danielcorrea1058@gmail.com con asunto Automatizacion de pruebas y cuerpo Este mensaje es generado automaticamente
 Then Accenture Testing espera haber enviado su mensaje a su amigo con asunto Automatizacion de pruebas 

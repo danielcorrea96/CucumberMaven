@@ -26,7 +26,12 @@ public class ValidarCorreo extends PageObject {
 	
 	public void list_enviados(String asunto) {
 		System.out.println("Entro aqui");
-		esp.withTimeoutOf(5, TimeUnit.SECONDS).waitUntilVisible();
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		list = getDriver().findElements(By.xpath("//span[@class=\"bog\"]"));	
 		validacion = list.get(2).getText().equals(asunto);
 		if (validacion) {

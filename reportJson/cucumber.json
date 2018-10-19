@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6775599344,
+              "duration": 8665962982,
               "status": "passed"
             },
             "line": 8,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 2877251753,
+              "duration": 3327792959,
               "status": "passed"
             },
             "line": 9,
@@ -55,48 +55,36 @@
         "steps": [
           {
             "result": {
-              "duration": 13230190864,
+              "duration": 4685302690,
               "status": "passed"
             },
             "line": 13,
-            "name": "que Accenture Testing observa la pagina de inicio de gmail, procede a redactar un nuevo correo electronico",
-            "match": {
-              "location": "DefinitionsSteps1.que_accenture_testing_observa_la_pagina_de_inicio_de_gmail_procede_a_redactar_un_nuevo_correo_electronico()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3362672021,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Accenture Testing quiere enviar un correo electronico a danielcorrea1058@gmail.com para comentarle acerca de su nuevo descumbriento en la Automatizacion de pruebas y argumentarle que Este mensaje es generado automaticamente",
+            "name": "Accenture Testing quiere enviar un nuevo correo electronico a danielcorrea1058@gmail.com con asunto Automatizacion de pruebas y cuerpo Este mensaje es generado automaticamente",
             "match": {
               "arguments": [
                 {
                   "val": "danielcorrea1058@gmail.com",
-                  "offset": 56
+                  "offset": 62
                 },
                 {
                   "val": "Automatizacion de pruebas",
-                  "offset": 138
+                  "offset": 100
                 },
                 {
                   "val": "Este mensaje es generado automaticamente",
-                  "offset": 183
+                  "offset": 135
                 }
               ],
-              "location": "DefinitionsSteps1.accenture_testing_quiere_enviar_un_correo_electronico_a_danielcorrea1058_para_comentarle_acerca_de_su_nuevo_descumbriento_en_la_automatizacion_de_pruebas_y_argumentarle_que_este_mensaje_es_generado_automaticamente(String,String,String)"
+              "location": "DefinitionsSteps1.accenture_testing_quiere_enviar_un_nuevo_correo_electronico(String,String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3187987859,
+              "duration": 7461501255,
               "status": "passed"
             },
-            "line": 15,
+            "line": 14,
             "name": "Accenture Testing espera haber enviado su mensaje a su amigo con asunto Automatizacion de pruebas",
             "match": {
               "arguments": [
