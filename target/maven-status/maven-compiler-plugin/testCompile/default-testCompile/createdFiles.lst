@@ -1,0 +1,6 @@
+com\accenture\cucumbermaven\runner\Runner.class
+com\accenture\cucumbermaven\pages\GmailPage.class
+com\accenture\cucumbermaven\pages\ValidarCorreo.class
+com\accenture\cucumbermaven\pages\RedactarPage.class
+com\accenture\cucumbermaven\step_definitions\DefinitionsSteps1.class
+com\accenture\cucumbermaven\steps\StepGmail.class

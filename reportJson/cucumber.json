@@ -1,0 +1,139 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Abrir el navegador en página de Gmail,y acceder con las credenciales de AccentureTesting2018@gmail.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6775599344,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que Accenture Testing abrio el navegador en la pagina de gmail",
+            "match": {
+              "location": "DefinitionsSteps1.que_accenture_testing_abrio_el_navegador_en_la_pagina_de_gmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2877251753,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "ingresa las credenciales de AccentureTesting2018@gmail.com con 123456Accenture",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AccentureTesting2018@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "123456Accenture",
+                  "offset": 63
+                }
+              ],
+              "location": "DefinitionsSteps1.ingresa_las_credenciales_de_accenturetestinggmailcom_con_123456(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "PRUEBA A REALIZAR - Enviar Correo Electrónico desde la página de Gmail.",
+        "description": "",
+        "id": "funcionalidad---envio-de-correo-electrónico-en-la-página-de-gmail.;prueba-a-realizar---enviar-correo-electrónico-desde-la-página-de-gmail.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13230190864,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que Accenture Testing observa la pagina de inicio de gmail, procede a redactar un nuevo correo electronico",
+            "match": {
+              "location": "DefinitionsSteps1.que_accenture_testing_observa_la_pagina_de_inicio_de_gmail_procede_a_redactar_un_nuevo_correo_electronico()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3362672021,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Accenture Testing quiere enviar un correo electronico a danielcorrea1058@gmail.com para comentarle acerca de su nuevo descumbriento en la Automatizacion de pruebas y argumentarle que Este mensaje es generado automaticamente",
+            "match": {
+              "arguments": [
+                {
+                  "val": "danielcorrea1058@gmail.com",
+                  "offset": 56
+                },
+                {
+                  "val": "Automatizacion de pruebas",
+                  "offset": 138
+                },
+                {
+                  "val": "Este mensaje es generado automaticamente",
+                  "offset": 183
+                }
+              ],
+              "location": "DefinitionsSteps1.accenture_testing_quiere_enviar_un_correo_electronico_a_danielcorrea1058_para_comentarle_acerca_de_su_nuevo_descumbriento_en_la_automatizacion_de_pruebas_y_argumentarle_que_este_mensaje_es_generado_automaticamente(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3187987859,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Accenture Testing espera haber enviado su mensaje a su amigo con asunto Automatizacion de pruebas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automatizacion de pruebas",
+                  "offset": 72
+                }
+              ],
+              "location": "DefinitionsSteps1.accenture_Testing_espera_haber_enviado_su_mensaje_a_su_amigo_con_asunto_Automatizacion_de_pruebas(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "FUNCIONALIDAD - Envio de correo electrónico en la página de gmail.",
+    "description": "COMO un usuario AccentureTesting@gmail.com\nQUIERO enviar un correo electrónico.\nPARA exponer una introducción a la automatización de pruebas con Cucumber, y en lenguaje Gherkin.",
+    "id": "funcionalidad---envio-de-correo-electrónico-en-la-página-de-gmail.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Gmail.feature",
+    "tags": [
+      {
+        "name": "@Feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
